@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman';
+    background-image: url("https://images-ext-2.discordapp.net/external/l06kgEmbOpmgk0OvFR1Uqct1J-j5hDvLd6PQDZoJ6pk/https/wallpaperaccess.com/full/1725723.jpg?width=1664&height=936");
+    background-size: cover;
+    
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(62, 103, 65);
+    position:fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float:left;
+    border-right: 1px solid rgb(132, 178, 135);
+  }
+  
+  li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
